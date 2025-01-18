@@ -27,13 +27,15 @@ def remove_last_element(array)
   # Step 1: remove the last element from the array
 
   # Step 2: return the array (because Step 1 returns the value of the element removed)
-  array
+  array.pop();
+  array;
 end
 
 def remove_first_three_elements(array)
   # Step 1: remove the first three elements
 
   # Step 2: return the array (because Step 1 returns the values of the elements removed)
+  array.shift(3)
   array
 end
 
